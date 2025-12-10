@@ -43,7 +43,7 @@ public:
 
 	void pop()
 	{
-		if (isEmpty() == true)
+		if (isEmpty())
 		{
 			cout << "stack is empty\n";
 			return;
@@ -133,4 +133,5 @@ int main()
 	check("{[9 * (8 / 8)] * (1 * 7)}");
 
 	return 0;
+
 }
